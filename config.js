@@ -29,7 +29,7 @@ let wibh = moment.tz('Asia/Karachi').format('HH')
     // Offset -420 is 18.00
     // Offset    0 is  0.00
     // Offset  420 is  7.00
-    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let weton = ['🍌', '❄️', '🇱🇰', '🌟', '🔥'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
       day: 'numeric',
@@ -41,9 +41,9 @@ let wibh = moment.tz('Asia/Karachi').format('HH')
 /*============== SOCIAL ==============*/
 
 // if you don't have it, type "-" or leave it alone so that there are credits :v
-global.sig = 'https://instagram.com/itx_ahmad.ali' //Link Instagrammu
-global.sgh = 'https://github.com/xIKRATOSx' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DxIb5oWzpg24mmg9D9zw5Y'
+global.sig = 'https://instagram.com/Dinuwa Official²⁰²³' //Link Instagrammu
+global.sgh = 'https://github.com/dinuwah' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
 global.sdc = '-' //Fill it out using the Discord link, if there is one, just leave it
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, This is up to you to fill in :v
 
@@ -53,10 +53,10 @@ global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
 global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '68673045381' //Nomor Bot
-global.nomorown = '923470027813' //Nomor Owner
-global.namebot = 'Ikratos-MD-v1' //Nama Bot
-global.nameown = 'ᴀʜᴍᴀᴅ ᴀʟɪ🇵🇰' // Nama Owner
+global.nomorbot = '94740804536' //Nomor Bot
+global.nomorown = '94740804536' //Nomor Owner
+global.namebot = 'Dinuwa Official²⁰²³ USER BOT' //Nama Bot
+global.nameown = '💝 Dinuwa Official²⁰²³ 💝' // Nama Owner
 
 
 /*============== CHATGPT ==============*/
@@ -65,7 +65,7 @@ global.org = 'PASTE_YOUR_ORG_HERE'   // Get you Org-Key from 'https://platform.o
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['923470027813', 'ᴀʜᴍᴀᴅ ᴀʟɪ🎐', true] //Replace your number with your name
+  ['94740804536', 'Dinuwa Official²⁰²³', true] //Replace your number with your name
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -104,26 +104,26 @@ global.APIKeys = { // APIKey Here
 // The word APIKEY is filled with your own apikey, by buying it on the website
 
 /*============== WATERMARK ==============*/
-global.wm = '「 ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ𝟷 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Ahmad Ali- ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = 'ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ𝟷'
-global.footerTXT = `ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`
-global.fig = `Follow me on instagram:\n\t\tinstagram.com/itx_ahmad.ali`
-global.botdate = `⫹⫺ Date: ${week} ${date}`
+global.wm = '💝 Dinuwa Official²⁰²³ 💝' //Main Watermark
+global.wm2 = '💝 Dinuwa Official²⁰²³ 💝'
+global.wm3 = '💝 Dinuwa Official²⁰²³ 💝'
+global.footerTXT = `💝 Dinuwa Official²⁰²³ 💝`
+global.fig = `Follow me on instagram:\n\t\tinstagram.com/Dinuwa Official²⁰²³`
+global.botdate = `🇱🇰 Date: ${week} ${date}`
 global.bottime = `Time : ${wktuwib}`
-global.titlebot = '🎋 ┊ ɪᴋʀᴀᴛᴏs ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '💝 Dinuwa Official²⁰²³ 💝'
 global.author = global.wm
-global.logo = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.logo = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/cc8jfkX/01.jpg' //Main Thumbnail
-global.thumb2 = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.thumbbc = 'https://i.ibb.co/cc8jfkX/01.jpg' //For broadcast
+global.thumb = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' //Main Thumbnail
+global.thumb2 = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
+global.thumbbc = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumblvlup = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.hwaifu = ['https://i.ibb.co/cc8jfkX/01.jpg']
+global.thumblvlup = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
+global.hwaifu = ['https://i.ibb.co/T1DqdYz/thumbnail.jpg']
 
 /*============== FlamingText ===========*/
 global.flaaa = [
@@ -135,11 +135,11 @@ global.flaaa = [
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='] 
 
 /*============== TEXT ==============*/
-global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
+global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...💝 Dinuwa Official²⁰²³ 💝```'
 global.eror = '```404 error```'
-global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+92 347 0027813'
+global.dtu = '💝 Dinuwa Official²⁰²³ 💝'
+global.dtc = '💝 Dinuwa Official²⁰²³ 💝'
+global.phn = '+94740804536'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -149,7 +149,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.thumbdoc = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '5644' // default 10TB
@@ -158,31 +158,31 @@ global.fpagedoc = '999'
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
 global.dmenut = 'ଓ═┅═━–〈' //top
-global.dmenub = '┊🇵🇰' //body
+global.dmenub = '┊💝' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━═┅═❏ *ღ 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 ღ* ❏═┅═━━━┅'
+global.dashmenu = '┅━━━═┅═❏ 💝 Dinuwa Official²⁰²³ 💝 ❏═┅═━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊☯︎'                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
+global.cmenua = '\n⌕ 💝 Dinuwa Official²⁰²³ 💝 ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
-global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
-global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
-global.htjava = '⫹⫺'    //hiasan Doang :v
-global.hsquere = ['⛶','❏','⫹⫺']
+global.lopr = 'P 🇱🇰' //LOGO PREMIUM ON MENU.JS
+global.lolm = 'L 🇱🇰' //LOGO LIMIT/FREE ON MENU.JS
+global.htjava = '💝'    //hiasan Doang :v
+global.hsquere = ['🍌','🇱🇰','💝']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'x_ikratos_x'
-global.stickauth = `「 ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ𝟷 」`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪᴋʀᴀᴛᴏs'
+global.stickpack = '💝 Dinuwa Official²⁰²³ 💝'
+global.stickauth = `💝 Dinuwa Official²⁰²³ 💝`
+global.packname = '💝 Dinuwa Official²⁰²³ 💝'
+global.packname2 = '💝 Dinuwa Official²⁰²³ 💝'
 
 global.multiplier = 38 // The higher, The harder levelup
 
