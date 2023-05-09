@@ -3,7 +3,7 @@ import fs from 'fs'
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 let handler = async (m, { text, conn, args, command, usedPrefix }) => {
-if (!text) throw `*Example: ${usedPrefix + command} Con mi prima*`
+if (!text) throw `*Example: ${usedPrefix + command} මියා khalifa 😂🍌*`
 try {
 let res = await xnxxsearch(text)
 let json = res.result
@@ -14,7 +14,7 @@ title: `ⓡⓔⓢⓤⓛⓣⓢ`,
 rows: listSerch }]
 const listMessage = {
 text: teskd,
-footer: 'ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813',
+footer: '💝 Dinuwa Official²⁰²³ 💝',
 title: " 『 Search Results 』",
 buttonText: "[ Click Here ]",
 sections}
@@ -22,7 +22,7 @@ for (let i of json) {
 listSerch.push({title: i.title, description: '⇧ select this option to download this video ⇧', rowId: `${usedPrefix}xnxxdl ${i.link}`})} 
 conn.sendMessage(m.sender, listMessage, { quoted: m })
 } catch (e) {
-m.reply('*Error\nPrh ly Bay, Fazool Cheezy Mat Dekh*')
+m.reply('*Error\nබඩු නෑ cuddh 🍌*')
 }}
 handler.command = /^porhubsearch|xvideossearch|xnxxsearch|xsearch$/i
 handler.owner = true
