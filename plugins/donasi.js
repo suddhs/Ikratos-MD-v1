@@ -1,13 +1,14 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let teks = `
-┌─「 Donation • Pulsa 」
-│ • *Indosat:* [${global.ppulsa}]
-❏────
+•.•:.•:•.•:•:•:•:•:•:•
+ᴍυℓтι ԃєνιᴄє ωнαтѕαρρ вσт* 
+Cʀєαтєԃ вყ : 💝 Dinuwa Official²⁰²³ 💝
 
-┌─「 Donation • Non Pulsa 」
-│ • *Dana:* [${global.pdana}]
-│ • *Saweria:* [${global.psaweria}]
-❏────
+💝Whatsapp : wa.me/94740804536
+ 
+💝Support: https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+
+Type .menu for my command list.
 `
 
 let you = flaaa.getRandom()
