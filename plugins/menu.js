@@ -348,7 +348,7 @@ const listMessage = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: `Hai Sis ${name}!`, 
+    message: `💝 Dinuwa Official²⁰²³ 💝`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(flaaa + 'Menu')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -373,7 +373,7 @@ const listMessage = {
     }
     }
     }
-    await conn.reply(m.chat, '*Wait a minute Sis. . .*', ftrol) 
+    await conn.reply(m.chat, '*ඔහොම පොඩ්ඩක් හිටපන් බේසිකයෝ 😂. . .*', ftrol) 
     
     //------------------< MENU >----------------
     
